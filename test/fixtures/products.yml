@@ -1,0 +1,29 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+one:
+  title: MyString
+  description: MyText
+  image_url: MyString
+  price: 9.99
+
+two:
+  title: MyString
+  description: MyText
+  image_url: MyString
+  price: 9.99
+#START:ruby
+
+ruby: 
+  title:       Programming Ruby 1.9
+  description: 
+    Ruby is the fastest growing and most exciting dynamic
+    language out there.  If you need to get working programs
+    delivered fast, you should add Ruby to your toolbox.
+  price:       49.50
+  image_url:   ruby.png 
+
+this_changes_everything:
+  title: "This Changes Everything"
+  description: "A book about climate Change"
+  image_url: "http://upload.wikimedia.org/wikipedia/en/0/00/This_Changes_Everything_cover.jpg"
+  price: 20.00
